@@ -1,3 +1,4 @@
+//convert digits to words eg 1234 to one two three four
 #include<stdio.h>
 int main(){
     int n;
