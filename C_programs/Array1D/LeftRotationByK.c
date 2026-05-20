@@ -1,4 +1,4 @@
-//array rotation r=towards right by k
+//rotate the array by k posiiton in left
 #include<stdio.h>
 void reverse(int arr[],int low,int high){
     int i=low;
@@ -7,27 +7,26 @@ void reverse(int arr[],int low,int high){
         int temp=arr[i];
         arr[i]=arr[j];
         arr[j]=temp;
-        j--;
         i++;
+        j--;
     }
 }
 int main(){
     int n;
-    printf("Enter the size of array");
+    printf("Enter the size of the array: ");
     scanf("%d",&n);
     int k;
-    printf("Enter K: ");
+    printf("Enter the value of k: ");
     scanf("%d",&k);
-    printf("Enter elements: ");
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    reverse(arr,0,n);
     reverse(arr,0,k);
     reverse(arr,k,n);
+    reverse(arr,0,n);
     for(int i=0;i<n;i++){
         printf("%d ",arr[i]);
     }
-    return 0;
+return 0;
 }

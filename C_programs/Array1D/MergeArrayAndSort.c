@@ -1,6 +1,7 @@
+//merge two arrays and sort them
 #include<stdio.h>
 void bubbleSort(int arr[],int n){
-    for(int i=0;i<n-1;i++){
+    for(int i=0;i<n;i++){
         for(int j=0;j<n-i-1;j++){
             if(arr[j]>arr[j+1]){
                 int temp=arr[j];
@@ -12,18 +13,16 @@ void bubbleSort(int arr[],int n){
 }
 int main(){
     int n;
-    printf("Enter the number of elements");
+    printf("Enter size of first array: ");
     scanf("%d",&n);
     int arr1[n];
-    printf("Enter elements for first array: ");
     for(int i=0;i<n;i++){
         scanf("%d",&arr1[i]);
     }
     int m;
-    printf("Enter the number of elements for second array");
+    printf("Enter size of second array: ");
     scanf("%d",&m);
     int arr2[m];
-    printf("Enter elements for Second array: ");
     for(int i=0;i<m;i++){
         scanf("%d",&arr2[i]);
     }
@@ -38,4 +37,5 @@ int main(){
     for(int i=0;i<n+m;i++){
         printf("%d ",brr[i]);
     }
+    return 0;
 }

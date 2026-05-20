@@ -1,7 +1,9 @@
-//sum of each individual row
+//transpose of a matrix
+
 #include<stdio.h>
 int main(){
     int n;
+    printf("Enter the size of the array: ");
     scanf("%d",&n);
     int arr[n][n];
     for(int i=0;i<n;i++){
@@ -9,13 +11,12 @@ int main(){
             scanf("%d",&arr[i][j]);
         }
     }
+    printf("The transpose of the matrix is:\n");
     for(int i=0;i<n;i++){
-        int sum=0;
         for(int j=0;j<n;j++){
-            sum+=arr[i][j];
+            printf("%d ",arr[j][i]);
         }
-        printf("Sum of row %d is: %d\n",i,sum);
+        printf("\n");
     }
     return 0;
-
 }
