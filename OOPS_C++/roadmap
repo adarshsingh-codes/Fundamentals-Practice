@@ -10,9 +10,9 @@
 │   │   ├── Copy_Constructor
 │   │   └── Destructor
 │   │
-│   ├── This_Pointer
+│   ├── (done) This_Pointer
 │   │
-│   ├── Static_Members
+│   ├──(partial)(do again) Static_Members
 │   │
 │   ├── Friend_Function_And_Class
 │   │
