@@ -14,7 +14,7 @@
 │   │
 │   ├──(partial)(do again) Static_Members
 │   │
-│   ├── Friend_Function_And_Class
+│   ├── (done)Friend_Function_And_Class
 │   │
 │   ├──(done)Inline_Functions
 │   │
@@ -22,7 +22,7 @@
 │   │   ├── new_delete
 │   │   └── Dynamic_Objects
 │   │
-│   ├── Inheritance
+│   ├──(done) Inheritance
 │   │   ├── Single_Inheritance
 │   │   ├── Multilevel_Inheritance
 │   │   ├── Multiple_Inheritance
@@ -31,11 +31,11 @@
 │   │
 │   ├── Polymorphism
 │   │   ├── Function_Overloading
-│   │   ├── Operator_Overloading
+│   │   ├──(redo) Operator_Overloading
 │   │   ├── Function_Overriding
 │   │   └── Virtual_Functions
 │   │
-│   ├── Abstract_Class
+│   ├──(done) Abstract_Class
 │   │
 │   ├── Encapsulation
 │   │
