@@ -11,9 +11,11 @@ int main(){
 
     if(p.first>p2.first||(p.first==p2.first&&p.second>p2.second)){
         cout<<"First pair is greater"<<endl;
-    }else if(p.first<p2.first||(p.first==p2.first)&&p.second<p2.second){
+    }
+    else if(p.first<p2.first||(p.first==p2.first)&&p.second<p2.second){
         cout<<"Second pair is greater"<<endl;
-    }else{
+    }
+    else{
         cout<<"Both are equal"<<endl;
     }
     return 0;
